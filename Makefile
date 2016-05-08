@@ -1,8 +1,8 @@
 CFLAGS=-static -Wall -g -I./vendor/buffer/src
-CFLAGS+=-I./vendor/uriparser/build/system/include/uriparser
+CFLAGS+=-I./vendor/uriparser/build/sysroot/include/uriparser
 
 LDFLAGS=-L./vendor/buffer/build -lbuffer
-LDFLAGS+=-L./vendor/uriparser/build/system/lib -luriparser
+LDFLAGS+=-L./vendor/uriparser/build/sysroot/lib -luriparser
 
 SOURCES=$(wildcard src/**/*.c src/*.c)
 OBJECTS=$(patsubst %.c,%.o,$(SOURCES))
