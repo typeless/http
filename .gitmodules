@@ -7,3 +7,6 @@
 [submodule "cJSON"]
 	path = cJSON
 	url = https://github.com/typeless/cJSON
+[submodule "vendor/cJSON"]
+	path = vendor/cJSON
+	url = https://github.com/typeless/cJSON
