@@ -4,3 +4,6 @@
 [submodule "vendor/uriparser"]
 	path = vendor/uriparser
 	url = git://git.code.sf.net/p/uriparser/git
+[submodule "cJSON"]
+	path = cJSON
+	url = https://github.com/typeless/cJSON
